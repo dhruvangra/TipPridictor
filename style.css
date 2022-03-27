@@ -1,0 +1,205 @@
+body {
+    font-family: Roboto;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(190, 181, 218, 1) 53%, rgba(148, 187, 233, 1) 100%);
+}
+
+#todb {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 92%;
+    background: rgb(65, 24, 58);
+    color: white;
+    margin: 0;
+    padding: 13px;
+    /* height padding:10px 10 px height and widhth*/
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#leftinput {
+    height: 300px;
+    width: 400px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 100px;
+    left: 373px;
+    overflow: auto;
+    border-top-left-radius: 30px;
+}
+
+#rightinput {
+    height: 300px;
+    width: 400px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 100px;
+    left: 773px;
+    overflow: auto;
+    border-top-right-radius: 30px;
+}
+
+#calbutton {
+    position: absolute;
+    top: 400px;
+    left: 373px;
+    height: 37px;
+    width: 782px;
+    background: #F0F0F0;
+    margin: 0;
+    padding: 9px 9px;
+}
+
+#calculate {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    background: rgb(65, 24, 58);
+    border-radius: 20px;
+    width: 200px;
+    height: 36px;
+    font-size: 17px;
+    color: white;
+}
+
+#jsfunc {
+    height: 170px;
+    width: 200px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 455px;
+    left: 373px;
+    overflow: auto;
+    border-bottom-left-radius: 30px;
+}
+
+#add {
+    height: 170px;
+    width: 200px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 455px;
+    left: 573px;
+    overflow: auto;
+}
+
+#pin {
+    height: 170px;
+    width: 200px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 455px;
+    left: 773px;
+    overflow: auto;
+}
+
+#coun {
+    height: 170px;
+    width: 200px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 455px;
+    left: 973px;
+    overflow: auto;
+    border-bottom-right-radius: 30px;
+}
+
+#footer {
+    height: 45px;
+    width: 600px;
+    position: absolute;
+    top: 675px;
+    left: 450px;
+    overflow: auto;
+}
+
+#rightsubdiv {
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+#textsizeofrightside {
+    font-size: 22px;
+}
+
+#billamt {
+    width: 80%;
+    height: 37px;
+    font-size: 20px;
+}
+
+#peopleamt {
+    width: 80%;
+    height: 37px;
+    font-size: 20px;
+}
+
+#serviceQual {
+    width: 80%;
+    height: 49px;
+    font-size: 20px;
+}
+
+#mapadjustment {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+#mapdata {
+    width: 100%;
+    font-size: 18px;
+}
+
+#pincode {
+    width: 80%;
+    font-size: 14px;
+}
+
+#country {
+    width: 80%;
+    font-size: 14px;
+}
+
+#address {
+    width: 80%;
+    font-size: 14px;
+}
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#totalTip {
+    padding-top: 40px;
+    overflow: auto;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
